@@ -80,8 +80,10 @@ nav{
     z-index: 999;
 }
 .left{
+    margin-left: 0.5rem;
     left: 0;
 }
 .right{
+    margin-right: 0.5rem;
     right: 0;
 }
