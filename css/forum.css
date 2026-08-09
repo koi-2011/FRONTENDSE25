@@ -26,6 +26,9 @@ nav{
     text-decoration: none;
     padding: 1rem;
 }
+.menu > li > a:hover{
+    background-color: darkblue;
+}
 .banner{
     background: linear-gradient(to right bottom,blue,white,darkblue);
     margin-top: 3px;
@@ -40,16 +43,17 @@ nav{
 .topic{
     width: 75%;
     margin: 0 auto;
-    border-radius: 20px;
 }
 .topic > h1{
+    padding: 1rem;
     background-color: darkblue;
     color: white;
     margin-bottom: 0;
+    border-radius: 10px 10px 0 0;
 }
 .forum{
     background-color:lightblue ;
-    border: 1px solid blue;
+    border-bottom: 2px solid blue;
 }
 .forum > div > a{
     margin-left: 0px;
@@ -58,15 +62,26 @@ nav{
     width: 20%;
     margin-right: 0;
 }
-
+.forums > div:last-child{
+    border-bottom: none;
+    border-radius: 0 0 10px 10px;
+}
 .forum  a{
     text-decoration: none;
 }
 .ad{
+    position: fixed;
     height: 500px;
     width: 10%;
     background-color:darkblue ;
     color: white;
     border-radius: 20px;
     text-align: center;
+    z-index: 999;
+}
+.left{
+    left: 0;
+}
+.right{
+    right: 0;
 }
