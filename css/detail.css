@@ -1,0 +1,72 @@
+.container{
+    width: 80%;
+    margin : 0 auto;
+    
+}
+.col20 img{
+    max-width: 100%;
+    
+}
+.col20{
+    width: 20%;
+    padding: 10px;
+}
+.col80{
+    width: 80%;
+    padding: 10px;
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+ol{
+    list-style-type: none;
+}
+ul > li {
+    list-style-type: none;
+}
+.rated-star{
+    color: gold;;
+}
+.review-form textarea{
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+}
+.btn{
+    text-align: right;
+}
+.add-comment{
+    text-align: right;
+    border: 1px solid gray;
+    background-color: darkblue;
+    color: white;
+    padding: 5px;
+}
+.subtitle::after{
+    content: " ";
+    border: 2px solid darkblue;
+    display: block;
+}
+.comment-list {
+    list-style-type: none;
+}
+.comment{
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: grey;
+}
+.col10{
+    width: 10%;
+}
+.col90{
+    width: 90%;
+}
+.col90 p{
+    font-style: italic;
+}
+.col10 img {
+    max-width: 100%;
+    border-radius: 50%;
+}
