@@ -1,0 +1,54 @@
+
+.register{
+    background-color: rgba(255, 255, 255, 0.5);
+    position: fixed;
+    top : 0;
+    width: 100vw;
+    height: 100vh;
+    transition: opacity 0.5s,visibility 0.5s;
+}
+.register-box-hidden{
+    visibility: hidden;
+    opacity: 0;
+}
+.register-box-show{
+    visibility: show;
+    opacity: 1;
+}
+.register-box{
+    background-color: white;
+    width: 30%;
+    padding: 5px;
+    border-radius: 20px;
+    margin: 0 auto;
+    position: relative;
+}
+.control{
+    margin : 1rem;
+    
+}
+.input-control{
+    width: 100%;
+    padding : 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.btn-control{
+    margin: 5px;
+    text-align: right;
+}
+.close-modal-box{
+    position: absolute;
+    font-weight: bold;
+    font-size: 30px;
+    right: 1rem;
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+.close-modal-box:hover{
+    color:red;
+    transform: rotate(30deg);  
+}
+.error{
+    border: 3px solid red;
+}

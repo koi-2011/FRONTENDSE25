@@ -70,3 +70,15 @@ ul > li {
     max-width: 100%;
     border-radius: 50%;
 }
+.thumbs > div{
+    width: 20%;
+    padding: 5px;
+    overflow: hidden;
+}
+.thumbs  img{
+    width: 100%;
+    transition: transform 0.5s;
+}
+.thumbs  img:hover{
+    transform: scale(1.5);
+}
